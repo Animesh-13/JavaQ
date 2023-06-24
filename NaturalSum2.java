@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class secondJavaStriv {
+public class NaturalSum2 {
     public static void main(String args[]) {
         System.out.println("Enter the num upto u want to print the number");
         Scanner sc = new Scanner(System.in);

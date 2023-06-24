@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class fourthJavaStriv {
+public class NaturalSum {
     public static void main(String args[]) {
         System.out.println("Enter the number.");
         Scanner sc = new Scanner(System.in);
@@ -8,6 +8,7 @@ public class fourthJavaStriv {
         int summation = Sum(x);
         System.out.println(summation);
         Sum2(0, x);
+        sc.close();
     }
 
     public static int Sum(int n) {

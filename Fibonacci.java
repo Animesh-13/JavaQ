@@ -1,12 +1,13 @@
 import java.util.Scanner;
 
-public class fifthJavaStriv {
+public class Fibonacci {
     public static void main(String args[]) {
         System.out.println("Enter the number to find nth fibonacci number.");
         Scanner sc = new Scanner(System.in);
         int x = sc.nextInt();
         int num = fibo(x);
         System.out.println(num);
+        sc.close();
     }
 
     public static int fibo(int n) {
