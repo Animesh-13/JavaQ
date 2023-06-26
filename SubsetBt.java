@@ -23,7 +23,7 @@ public class SubsetBt {
     }
 
     public static void main(String[] args) {
-        int[] nums = { 3, 4, 5 };
+        int[] nums = { 1, 2, 2, 2, 3, 3 };
         List<List<Integer>> subsets = findSubsets(nums);
 
         System.out.println("All subsets:");
